@@ -1,0 +1,23 @@
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gareggiato	gareggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	combinata	combinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	combinata	combinare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	dello	di	ADP	EA	Gender=Masc|Number=Sing	9	case	_	_
+9	sci	sci	NOUN	S	Gender=Masc	7	nmod	_	_
+10	alpino	alpino	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+11	.	.	PUNCT	FS	_	5	punct	_	_

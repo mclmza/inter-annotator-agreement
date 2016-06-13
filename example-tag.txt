@@ -1,0 +1,23 @@
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art
+2	squadre	squadra	NOUN	S	Gender=Fem|Number=Plur
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+4	gareggiato	gareggiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part
+5	in	in	ADP	E	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing
+8	di	di	ADP	E	_
+9	discesa	discesa	NOUN	S	Gender=Fem|Number=Sing
+10	combinata	combinata	ADJ	A	Gender=Fem|Number=Sing
+11	.	.	PUNCT	FS	_
+
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art
+2	combinata	combinata	NOUN	S	Gender=Fem|Number=Sing
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art
+5	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing
+6	di	di	ADP	E	_
+7	gara	gara	NOUN	S	Gender=Fem|Number=Sing
+8	dello	di	ADP	EA	Gender=Masc|Number=Sing
+9	sci	sci	NOUN	S	Gender=Masc
+10	alpino	alpino	ADJ	A	Gender=Masc|Number=Sing
+11	.	.	PUNCT	FS	_
