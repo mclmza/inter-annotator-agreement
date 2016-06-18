@@ -9,7 +9,7 @@ def operation(file1, file2, op, unify):
 	lines1 = [x.split() for x in open(file1, "r")]
 	lines2 = [x.split() for x in open(file2, "r")]
 
-	if(op=="tag"):
+	if(op=="pos"):
 		min = 0
 		max = 6
 		target = 3
@@ -59,7 +59,7 @@ def annotation(output):
 
 def main(argv):
 	parser = argparse.ArgumentParser(description="Interannotator agreement", formatter_class=RawTextHelpFormatter)
-	parser.add_argument("command", choices=('tag', 'dep'), help="tag for interannotator agreement on tags\ndep interannotator agreement on dependencies")
+	parser.add_argument("command", choices=('pos', 'dep'), help="pos for interannotator agreement on pos\ndep interannotator agreement on dependencies")
 	parser.add_argument("-u", "--unify", action='store_true', help="helps the annotators to unify the files in a single one")
 	parser.add_argument("input1", help="one of the two files")
 	parser.add_argument("input2", help="the other file")
