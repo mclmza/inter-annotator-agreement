@@ -9,7 +9,7 @@ You need to have installed NLTK to make it work.
 #### How to use
 Find the annotation agreement for tags between two annotators, starting from two files:
 ```sh
-python script.py tag file1.txt file2.txt 
+python script.py pos file1.txt file2.txt 
 ```
 Find the annotation agreement for dependencies between two annotators, starting from two files:
 ```sh
@@ -17,7 +17,7 @@ python script.py dep file1.txt file2.txt
 ```
 Returns the list of rows where the two annotators disagree:
 ```sh
-python script.py tag file1.txt file2.txt -u
+python script.py pos file1.txt file2.txt -u
 ```
 or:
 ```sh
