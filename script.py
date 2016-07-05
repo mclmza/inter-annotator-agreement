@@ -31,7 +31,7 @@ def operation(file1, file2, op, unify):
 		if len(splitted_line1) != max and len(splitted_line1) != min:
 			print "Something is wrong at line " + str(i+1) + " in " + file1
 			exit()
-		if len(splitted_line1) != max and len(splitted_line1) != min:
+		if len(splitted_line2) != max and len(splitted_line2) != min:
 			print "Something is wrong at line " + str(i+1) + " in " + file2
 			exit()
 		if len(splitted_line1) == max:
